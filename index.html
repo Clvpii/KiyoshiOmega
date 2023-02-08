@@ -1,49 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kiyoshi Omega</title>
-    <style>
-      body {
-        background-image: linear-gradient(to right, #000000, #343434);
-        font-family: Arial, sans-serif;
-      }
-
-      header {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 20px;
-        text-align: center;
-      }
-
-      header h1 {
-        margin: 0;
-      }
-
-      main {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 2px 2px 8px #ccc;
-      }
-
-      section {
-        margin-bottom: 20px;
-      }
-
-      footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
   </head>
   <body>
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
     <header>
-      <h1>Kiyoshi Omega</h1>
+      <a href="#" class="brand">Kiyoshi Omega</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="Community">Community</a>
+        <a href="#services">Services</a>
+        <a href="#Team">Team</a>
+        <a href="#contact">Contact</a>
+      </div>
     </header>
-    <main></main>
-    <footer>&copy; 2023 Kiyoshi Omega</footer>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Hello, We're<br /><span>Kiyoshi Omega</span></h2>
+        <div class="animated-text">
+          <h3>Game Developer</h3>
+          <h3>Web Developer</h3>
+          <h3>Kiyoshi Omega</h3>
+        </div>
+        <a href="#" class="btn">Let's Start!</a>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">About Kiyoshi Omega</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="lgoo.png" alt="" />
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Hey There!</h2>
+          <p class="paragraph-text">
+            At Kiyoshi Omega, We're an independent Roblox game development
+            studio. Which has made 1 game, and some on the way! Our goal is to
+            make fun and enjoyable games for everyone! .<br /><br />
+            We're a small Development group, which are are powered by roblox!
+            Our game is called Kiyoshi Omega. This game is an Sword Fighting
+            game. You elimate people, you'll get money to buy Swords, the game
+            might be constantly updating due to glitches, or updating for new
+            items!
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Community" id="Community">
+      <div class="title reveal">
+        <h2 class="section-title">Our Community!</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">Our Community</h2>
+          <p>
+             Community Soon >:)
+          </p>
+          <a href="#" class="btn">See More</a>
+          <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">Our Services</h2>
+        <p>
+          Our Services are still currently expanding. As of Our Services are on roblox, with the game Kiyoshi Omega!
+        </p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Roblox Development</h3>
+            <p>
+              Creating Game, powered by roblox!
+            </p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Web Development</h3>
+            <p>
+              Web Development of Making Websites!
+            </p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-object-group"></i>
+          </div>
+          <div class="info">
+            <h3>Interface Design</h3>
+            <p>
+              Design User-Inferface, Properally known as User-Interface
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Team" id="Team">
+            <div class="title reveal">
+        <h2 class="section-title">Team</h2>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+          <img src="Clvpii.png" height="500"/>
+          
+            <img src="images/work1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work6.jpg" alt="" />
+          </div>
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">See All</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Us!</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+                          </div>
+            <div class="info">
+  
+            <div class="info">
+                          </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>KiyoshiOmegaRBLX@gmail.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>No custom domain ):</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form reveal">
+            <h3>Function Comming Soon!</h3>
+            <div class="input-box">
+              <input type="text" name=Function Comming Soon!"" value="" placeholder="Function Comming Soon!" />
+            </div>
+            <div class="input-box">
+              <input type="text" name="Function Comming Soon!" value="Function Comming Soon!" placeholder="Function Comming Soon!" />
+            </div>
+            <div class="input-box">,</div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Function Comming Soon!" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="footer-title">Kiyoshi Omega</span>
+      <p>Copyright @2023 <a href="#">Kiyoshi Omega</a>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
